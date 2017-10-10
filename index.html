@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+
+	<!--Link to Google font-->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Teko:600" rel="stylesheet">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- javasctip.js -->
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</head>
+<body>
+<header><h1>Rock Paper Scissors</h1></header>
+
+<div id="start">
+	<form name="comment-form">
+		<input id="name-input" type="text" placeholder="Name">
+		<input id="add-user" type="submit" value="Start">
+	</form>
+</div>
+<div id="message1"></div>
+<div id="message2"></div>
+
+<div class="panel-body">
+	<div class="display" id="player1-display">
+		<div class="name" id="player1-name"></div>
+		<div id="player1-option"></div>
+		<div class="score" id="player1-score"></div>
+	</div>
+
+	<div class="display" id="result-display"></div>
+	
+	<div class="display" id="player2-display">
+		<div class="name" id="player2-name"></div>
+		<div id="player2-option"></div>
+		<div class="score" id="player2-score"></div>
+	</div>
+</div>
+
+<div class="comment-body">
+	<div id="comment-display" type="textarea"></div>
+	<form name="comment-form">
+		<input id="comment-input" type="text">
+		<input id="add-comment" type="submit" value="Submit">
+	</form>
+</div>
+
+</body>
+</html>
