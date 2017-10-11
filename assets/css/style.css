@@ -5,7 +5,10 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
-	font-family: 'Anton', sans-serif;
+	/*font-family: 'Julius Sans One', sans-serif;*/
+	font-family: 'Assistant', sans-serif;
+	/*font-family: 'Special Elite', cursive;*/
+
     color: #000;
 
 	text-align: center;
@@ -58,13 +61,23 @@ div {
 	float: left;
     background-color: #eee;
 	width: 200px;
-	height: 150px;
-	/*padding: 20px 20px 20px 20px;*/
+	height: 170px;
 	margin: 20px 20px 20px 20px;
  	position: relative;
 }
 
 .option {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 150px;
+	height: 100px;
+}
+
+.choice {
 	padding: 10px 20px 10px 20px;
 	max-width: 60%;
 	margin: 0% 20%;
